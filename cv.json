@@ -1,0 +1,229 @@
+{
+    "basics": {
+      "name": "Nicolas Sanhueza",
+      "label": "Ingeniero en Computación e Informática",
+      "image": "",
+      "email": "nicolasanhuezajaque@hotmail.com",
+      "phone": "+56 9 83898828",
+      "url": "https://johndoe.com",
+      "summary": "Ingeniero en Computación e Informática con conocimientos en Python, Laravel y bases de datos. Mi experiencia abarca tanto el desarrollo de software como el manejo de hardware.",
+      "location": {
+        "address": "Pasaje los nardos 320",
+        "postalCode": "8050000",
+        "city": "Santiago",
+        "countryCode": "CL",
+        "region": "Región Metropolitana"
+      },
+      "profiles": [{
+        "network": "X",
+        "username": "nsanhueza21",
+        "url": "https://twitter.com/nsanhueza21"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "nicolas sanhueza jaque",
+        "url": "https://www.linkedin.com/in/nicolas-sanhueza-jaque/"
+      },
+      {
+        "network": "GitHub",
+        "username": "nicolasanhueza",
+        "url": "https://github.com/nicolasanhueza"
+      }]
+    },
+    "work": [{
+      "name": "Administradora de supermercados hiper limitada",
+      "position": "Operador de tienda",
+      "url": "https://www.lider.cl",
+      "startDate": "2021-01-09",
+      "endDate": null,
+      "summary": "Me desempeño en operar caja, fiambrería, carnicería, entre otros.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+        "name": "Grupo Signalis",
+        "position": "Programador",
+        "url": "https://www.signalis.cl",
+        "startDate": "2023-02-06",
+        "endDate": "2023-06-06",
+        "summary": "Desarrollo de software principalmente con el framework Laravel, para los testing de software se utilizo el framework Pest y documentación",
+        "highlights": [
+          "Started the company"
+        ]
+      }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Universidad Andrés Bello",
+      "url": "https://www.unab.cl",
+      "area": "Ingeniero en Computación e Informática",
+      "studyType": "Bachelor",
+      "startDate": "2018-03-05",
+      "endDate": "2023-01-09",
+      "score": "5.3",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Colegio Superior del Maipo",
+      "url": "https://www.csmaipo.cl",
+      "area": "Enseñanza media (científico humanista)",
+      "studyType": "Bachelor",
+      "startDate": "2014-02-27",
+      "endDate": "2017-11-29",
+      "score": "5.3",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+    ],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+        "name": "HTML",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "Laravel",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "Node",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "Gitlab",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "Python",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Medium"
+    },
+    {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Everi.fi",
+      "isActive": true,
+      "description": "Software para prevenir fraudes en compras, optimizando negocios con soluciones en cobranza, control de fraude, marketing y servicio al cliente.",
+      "highlights": [
+        "Creacion de la documentación",
+        "Encargado de realizar pruebas"
+      ],
+      "url": "https://everi.fi"
+    },
+    {
+      "name": "Api currency",
+      "isActive": true,
+      "description": "Se desarrolló una API de cambió de moneda con el objetivo de integrarla en proyectos futuros, permitiendo su versátil utilización en diversas aplicaciones.",
+      "highlights": [
+        "Subido en Packagist",
+        "Desarrollado en laravel"
+      ],
+      "url": "https://packagist.org/packages/nicolas-signalis/open-exchange-rates"
+    },
+    {
+      "name": "StoreControl",
+      "isActive": true,
+      "description": "Software de control de inventario para mi proyecto de titulación. Este software simplifica el registro y ubicación de productos en la trastienda de una empresa. Su interfaz intuitiva brinda a los usuarios acceso selectivo a las funciones del programa, según su perfil.",
+      "highlights": [
+        "Desarrollado con Flask"
+      ],
+      "url": "https://gitlab.com/nicolas.sanhueza/storecontrol.git"
+    }
+    ]
+  }
