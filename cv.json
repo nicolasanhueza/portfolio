@@ -214,7 +214,8 @@
         "Subido en Packagist",
         "Desarrollado en laravel"
       ],
-      "url": "https://packagist.org/packages/nicolas-signalis/open-exchange-rates"
+      "url": "https://packagist.org/packages/nicolas-signalis/open-exchange-rates",
+      "github": ""
     },
     {
       "name": "StoreControl",
