@@ -6,7 +6,9 @@
       "email": "nicolasanhuezajaque@hotmail.com",
       "phone": "+56 9 83898828",
       "url": "https://johndoe.com",
-      "summary": "Ingeniero en Computación e Informática con conocimientos en Python, Laravel y bases de datos. Mi experiencia abarca tanto el desarrollo de software como el manejo de hardware.",
+      "summary": ["Soy ingeniero en Computación e Informática y vivo en Santiago de Chile. Actualmente trabajo como freelance. Me gusta mucho el desarrollo de software, tanto backend como frontend, y tengo conocimientos en arquitectura de software. Mis lenguajes favoritos son Python y Astro.",
+                  "Recientemente, he estado desarrollando un software que permite a los usuarios guardar sus mundos de juego localmente y sincronizarlos automáticamente con GitHub, sin necesidad de conocimientos sobre comandos Git.",
+                  "Me gustaría destacar un proyecto propio: un juego 2D cuyo objetivo es dar a conocer de manera didáctica a los niños los peligros del COVID-19."],
       "location": {
         "address": "Pasaje los nardos 320",
         "postalCode": "8050000",
@@ -15,11 +17,6 @@
         "region": "Región Metropolitana"
       },
       "profiles": [{
-        "network": "X",
-        "username": "nsanhueza21",
-        "url": "https://twitter.com/nsanhueza21"
-      },
-      {
         "network": "LinkedIn",
         "username": "nicolas sanhueza jaque",
         "url": "https://www.linkedin.com/in/nicolas-sanhueza-jaque/"
@@ -31,12 +28,12 @@
       }]
     },
     "work": [{
-      "name": "Administradora de supermercados hiper limitada",
+      "name": "Desarrollador de Software Freelance",
       "position": "Operador de tienda",
-      "url": "https://www.lider.cl",
-      "startDate": "2021-01-09",
+      "url": null,
+      "startDate": "2023-06-06",
       "endDate": null,
-      "summary": "Me desempeño en operar caja, fiambrería, carnicería, entre otros.",
+      "summary": "Me he desempeñado mayormente en la creación de sitios web. Realicé para la pyme Malva Silvestre el diseño UI/UX de su página web. También destaco la creación de la landing page de un proyecto personal.",
       "highlights": [
         "Started the company"
       ]
@@ -47,7 +44,7 @@
         "url": "https://www.signalis.cl",
         "startDate": "2023-02-06",
         "endDate": "2023-06-06",
-        "summary": "Desarrollo de software principalmente con el framework Laravel, para los testing de software se utilizo el framework Pest y documentación",
+        "summary": "Durante mi tiempo en el equipo, contribuí en el desarrollo de la documentación de la API utilizada en el software de identificación de fraudes, asegurando que proporcionara una guía clara y detallada para los usuarios finales. Además, desempeñé un papel importante en la realización de pruebas unitarias y también llevé a cabo la refactorización de código en alguno de sus repositorios.",
         "highlights": [
           "Started the company"
         ]
@@ -199,20 +196,37 @@
     "projects": [{
       "name": "Everi.fi",
       "isActive": true,
-      "description": "Software para prevenir fraudes en compras, optimizando negocios con soluciones en cobranza, control de fraude, marketing y servicio al cliente.",
+      "description": "Formé parte del equipo encargado de desarrollar un software centrado en la prevención del riesgo de fraude en entornos comerciales. Mi principal responsabilidad era mejorar la calidad del código a través de la refactorización y realizar pruebas unitarias en todos los endpoints de la API.",
       "highlights": [
-        "Creacion de la documentación",
-        "Encargado de realizar pruebas"
+        "Pestphp 1.23",
+        "Laravel 9.19",
+        "Php 8.0.2",
+        "Postman 10.15.1"
       ],
       "url": "https://everi.fi"
     },
     {
+      "name": "Documentación API",
+      "isActive": true,
+      "description": "Desarrollé la documentación de la API everi.fi, creando una interfaz interactiva para los desarrolladores de los clientes del servicio. Escribí guías detalladas y ejemplos de código para asegurar la precisión de la documentación y mejorar la experiencia del usuario. Esto redujo el tiempo necesario para entender el funcionamiento de la API  y aumentó la satisfacción del usuario.",
+      "highlights": [
+        "Tailwindcss 3.3.0",
+        "React 18.2.0"
+      ],
+      "url": null
+    },
+    {
       "name": "Api currency",
       "isActive": true,
-      "description": "Se desarrolló una API de cambió de moneda con el objetivo de integrarla en proyectos futuros, permitiendo su versátil utilización en diversas aplicaciones.",
+      "description": "Me encargué del desarrollo y la implementación de pruebas unitarias para una API encargada de la conversión de moneda. Esta API fue subida a Packagist para su uso en proyectos futuros de la empresa. Para obtener los valores de las monedas, esta API consumía la API de Open Exchange Rates.",
       "highlights": [
-        "Subido en Packagist",
-        "Desarrollado en laravel"
+        "Laravel 9.19",
+        "Php 8.0.2",
+        "Vite 4.1.4",
+        "Bootstrap 5.3.0",
+        "Pestphp 1.23",
+        "Phpadmin",
+        "MySQL"
       ],
       "url": "https://packagist.org/packages/nicolas-signalis/open-exchange-rates",
       "github": ""
@@ -222,9 +236,24 @@
       "isActive": true,
       "description": "Software de control de inventario para mi proyecto de titulación. Este software simplifica el registro y ubicación de productos en la trastienda de una empresa. Su interfaz intuitiva brinda a los usuarios acceso selectivo a las funciones del programa, según su perfil.",
       "highlights": [
-        "Desarrollado con Flask"
+        "Flask 2.2.2",
+        "Python 3.10",
+        "Bootstrap 5.3.0",
+        "HTML",
+        "CSS",
+        "MySQL"
       ],
       "url": "https://gitlab.com/nicolas.sanhueza/storecontrol.git"
+    },
+    {
+      "name": "Juego Covid-19",
+      "isActive": true,
+      "description": "Proyecto universitario con calificación y con el fin de presentar al Ministerio de Salud. Nuestro equipo desarrolló un videojuego utilizando la metodología ágil Scrum. Este proyecto tenía como objetivo principal informar y concienciar a los niños sobre los riesgos asociados con el COVID-19 y proporcionar estrategias para su prevención y combate.",
+      "highlights": [
+        "C#",
+        "Untiy"
+      ],
+      "url": null
     }
     ]
   }
