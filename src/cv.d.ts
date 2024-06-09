@@ -20,7 +20,7 @@ interface Basics {
   email: string
   phone: string
   url: string
-  summary: string
+  summary: string[]
   location: Location
   profiles: Array<Profiles>
 }
