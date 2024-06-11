@@ -6,9 +6,7 @@
       "email": "nicolasanhuezajaque@hotmail.com",
       "phone": "+56 9 83898828",
       "url": "https://johndoe.com",
-      "summary": ["Soy ingeniero en Computación e Informática y vivo en Santiago de Chile. Actualmente trabajo como freelance. Me gusta mucho el desarrollo de software, tanto backend como frontend, y tengo conocimientos en arquitectura de software. Mis lenguajes favoritos son Python y Astro.",
-                  "Recientemente, he estado desarrollando un software que permite a los usuarios guardar sus mundos de juego localmente y sincronizarlos automáticamente con GitHub, sin necesidad de conocimientos sobre comandos Git.",
-                  "Me gustaría destacar un proyecto propio: un juego 2D cuyo objetivo es dar a conocer de manera didáctica a los niños los peligros del COVID-19."],
+      "summary": "Ingeniero en Computación e Informática con experiencia en desarrollo de software backend y frontend, además de conocimientos en arquitectura de software. Posee sólidas habilidades en Python y en Framework Astro. Busca aplicar sus habilidades técnicas y su pasión por la programación en un puesto desafiante dentro de una empresa innovadora. Le entusiasma la posibilidad de colaborar en proyectos que tengan un impacto positivo en la sociedad.",
       "location": {
         "address": "Pasaje los nardos 320",
         "postalCode": "8050000",
@@ -29,13 +27,20 @@
     },
     "work": [{
       "name": "Desarrollador de Software Freelance",
-      "position": "Operador de tienda",
+      "position": null,
       "url": null,
       "startDate": "2023-06-06",
       "endDate": null,
-      "summary": "Me he desempeñado mayormente en la creación de sitios web. Realicé para la pyme Malva Silvestre el diseño UI/UX de su página web. También destaco la creación de la landing page de un proyecto personal.",
+      "summary": [
+        "• Realizó el diseño UI/UX de la página web para la pyme Malva Silvestre, mejorando la experiencia del usuario y la usabilidad del sitio.",
+        "• Creó una landing page para un proyecto personal, demostrando habilidades de diseño y desarrollo web autónomas."
+      ],
+      "skills":"Habilidades técnicas destacadas:" ,
       "highlights": [
-        "Started the company"
+        "• HTML, CSS, JavaScript",
+        "• Frameworks front-end (opcional, según los proyectos realizados)",
+        "• Experiencia con herramientas de diseño UI/UX",
+        "• Gestión de proyectos y organización personal"
       ]
     },
     {
@@ -44,9 +49,16 @@
         "url": "https://www.signalis.cl",
         "startDate": "2023-02-06",
         "endDate": "2023-06-06",
-        "summary": "Durante mi tiempo en el equipo, contribuí en el desarrollo de la documentación de la API utilizada en el software de identificación de fraudes, asegurando que proporcionara una guía clara y detallada para los usuarios finales. Además, desempeñé un papel importante en la realización de pruebas unitarias y también llevé a cabo la refactorización de código en alguno de sus repositorios.",
+        "summary": [
+        "Contribución al desarrollo de la API:",
+        "• Redacción de documentación clara y detallada para la API utilizada en el software de identificación de fraudes, facilitando su comprensión y uso por parte de los usuarios finales.",
+        "• Demostró habilidades de comunicación técnica y capacidad para crear materiales informativos de alta calidad."
+      ],
+      "skills": "Pruebas y refactorización de código:",
         "highlights": [
-          "Started the company"
+          "• Realizó pruebas unitarias para garantizar la calidad y el correcto funcionamiento del software.",
+          "• Refactorizó código existente en repositorios, mejorando la legibilidad, mantenibilidad y eficiencia del mismo.",
+          "• Demostró conocimient relevante en QA/QC y clean code en el desarrollo del proyecto."
         ]
       }],
     "volunteer": [{
@@ -67,18 +79,6 @@
       "studyType": "Bachelor",
       "startDate": "2018-03-05",
       "endDate": "2023-01-09",
-      "score": "5.3",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    },
-    {
-      "institution": "Colegio Superior del Maipo",
-      "url": "https://www.csmaipo.cl",
-      "area": "Enseñanza media (científico humanista)",
-      "studyType": "Bachelor",
-      "startDate": "2014-02-27",
-      "endDate": "2017-11-29",
       "score": "5.3",
       "courses": [
         "DB1101 - Basic SQL"

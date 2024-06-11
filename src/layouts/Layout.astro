@@ -8,9 +8,6 @@ interface Props {
 const { title } = Astro.props;
 
 const { image, summary, url } = basics
-
-// Convertir el array de summary en una sola string
-const summaryString = summary.join(' ');
 ---
 
 <!doctype html>
@@ -18,7 +15,7 @@ const summaryString = summary.join(' ');
 	<head>
 		<meta charset="UTF-8" />
 		<title>{title}</title>
-		<meta name="description" content={summaryString} />
+		<meta name="description" content={summary} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="preload" as="image" href={image} />
@@ -26,14 +23,14 @@ const summaryString = summary.join(' ');
 		<meta property="og:url" content={url} />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content={title} />
-		<meta property="og:description" content={summaryString} />
+		<meta property="og:description" content={summary} />
 		<meta property="og:image" content="" />
 
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta property="twitter:domain" content={url.split("//")[1] ?? ''} />
 		<meta property="twitter:url" content={url} />
 		<meta name="twitter:title" content={title} />
-		<meta name="twitter:description" content={summaryString} />
+		<meta name="twitter:description" content={summary} />
 		<meta name="twitter:image" content="" />
 	</head>
 	<body>

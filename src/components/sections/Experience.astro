@@ -8,7 +8,7 @@ import { work } from '@cv'
     <ul>
         {
         work.map(
-            ({ name, startDate, endDate, position, summary, highlights, url }) => {
+            ({ name, startDate, endDate, position, summary, skills, highlights, url }) => {
                 const startYear = new Date(startDate).getFullYear()
                 const endYear = 
                     endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -30,7 +30,20 @@ import { work } from '@cv'
                             </header>
 
                             <footer>
-                                <p>{summary}</p>
+                                {Array.isArray(summary) ? (
+                                    summary.map((summarys) => (
+                                        <p>{summarys}</p>
+                                    ))
+                                ) : (
+                                    <p>{summary}</p>
+                                )}
+
+                                <p class="skills-title">{skills}</p>
+
+                                {highlights.map(highlight => (
+                                    <p>{highlight}</p>
+                                )
+                                )}
                             </footer>
                         </article>
                     </li>
@@ -72,6 +85,10 @@ import { work } from '@cv'
         color: #555;
         font-size: 0.85rem;
         min-width: 102px;
+    }
+
+    footer p.skills-title {
+        margin-top: 10px;
     }
   
     @media (width <= 700px) {

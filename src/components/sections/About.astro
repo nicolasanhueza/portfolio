@@ -5,12 +5,8 @@ import { basics } from "@cv"
 const { summary } = basics
 ---
 
-<Section title="Sobre mí">
-    { summary.map (( paragraph, index ) => (
-        <fragment>
-            <p>{paragraph}</p>
-            {index !== summary.length - 1 && <br />}
-        </fragment>
-    ))}
-
+<Section>
+    <p>
+        {summary}
+    </p>
 </Section>
