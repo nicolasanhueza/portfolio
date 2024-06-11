@@ -196,7 +196,7 @@
     "projects": [{
       "name": "Everi.fi",
       "isActive": true,
-      "description": "Formé parte del equipo encargado de desarrollar un software centrado en la prevención del riesgo de fraude en entornos comerciales. Mi principal responsabilidad era mejorar la calidad del código a través de la refactorización y realizar pruebas unitarias en todos los endpoints de la API.",
+      "description": "Formaba parte del equipo encargado de desarrollar un software centrado en la prevención del riesgo de fraude en entornos comerciales. Su principal responsabilidad consistía en mejorar la calidad del código a través de la refactorización y llevar a cabo pruebas unitarias en todos los endpoints de la API.",
       "highlights": [
         "Pestphp 1.23",
         "Laravel 9.19",
@@ -208,7 +208,7 @@
     {
       "name": "Documentación API",
       "isActive": true,
-      "description": "Desarrollé la documentación de la API everi.fi, creando una interfaz interactiva para los desarrolladores de los clientes del servicio. Escribí guías detalladas y ejemplos de código para asegurar la precisión de la documentación y mejorar la experiencia del usuario. Esto redujo el tiempo necesario para entender el funcionamiento de la API  y aumentó la satisfacción del usuario.",
+      "description": "Desarrolló la documentación de la API everi.fi, creando una interfaz interactiva para los desarrolladores de los clientes del servicio. Escribió guías detalladas y ejemplos de código para asegurar la precisión de la documentación y mejorar la experiencia del usuario. Esto redujo el tiempo necesario para entender el funcionamiento de la API y aumentó la satisfacción del usuario.",
       "highlights": [
         "Tailwindcss 3.3.0",
         "React 18.2.0"
@@ -218,7 +218,7 @@
     {
       "name": "Api currency",
       "isActive": true,
-      "description": "Me encargué del desarrollo y la implementación de pruebas unitarias para una API encargada de la conversión de moneda. Esta API fue subida a Packagist para su uso en proyectos futuros de la empresa. Para obtener los valores de las monedas, esta API consumía la API de Open Exchange Rates.",
+      "description": "Se encargó del desarrollo y la implementación de pruebas unitarias para una API encargada de la conversión de moneda. Esta API fue subida a Packagist para su uso en proyectos futuros de la empresa. Para obtener los valores de las monedas, esta API consumía la API de Open Exchange Rates.",
       "highlights": [
         "Laravel 9.19",
         "Php 8.0.2",
@@ -234,7 +234,7 @@
     {
       "name": "StoreControl",
       "isActive": true,
-      "description": "Software de control de inventario para mi proyecto de titulación. Este software simplifica el registro y ubicación de productos en la trastienda de una empresa. Su interfaz intuitiva brinda a los usuarios acceso selectivo a las funciones del programa, según su perfil.",
+      "description": "Elaboró un software de control de inventario para su proyecto de titulación. Este software simplifica el registro y la ubicación de productos en la trastienda de una empresa. Su interfaz intuitiva proporciona a los usuarios acceso selectivo a las funciones del programa, según su perfil.",
       "highlights": [
         "Flask 2.2.2",
         "Python 3.10",
@@ -248,7 +248,7 @@
     {
       "name": "Juego Covid-19",
       "isActive": true,
-      "description": "Proyecto universitario con calificación y con el fin de presentar al Ministerio de Salud. Nuestro equipo desarrolló un videojuego utilizando la metodología ágil Scrum. Este proyecto tenía como objetivo principal informar y concienciar a los niños sobre los riesgos asociados con el COVID-19 y proporcionar estrategias para su prevención y combate.",
+      "description": "El proyecto universitario, con calificación y con el fin de ser presentado al Ministerio de Salud, fue desarrollado por su equipo. Utilizaron la metodología ágil Scrum para crear un videojuego. El objetivo principal de este proyecto era informar y concienciar a los niños sobre los riesgos asociados con el COVID-19, además de proporcionar estrategias para su prevención y combate.",
       "highlights": [
         "C#",
         "Untiy"
