@@ -21,8 +21,6 @@ const SOCIAL_ICONS: SocialIcon = {
 
 const linkedInfo = profiles.find(({ network }) => network == "LinkedIn")
 const linkedUrl = linkedInfo?.url
-
-const printInfo = [email, phone, url].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -35,9 +33,59 @@ const printInfo = [email, phone, url].filter(Boolean).join(" • ")
                 {city}, {region}
             </span>
             <footer class="print">
-                {printInfo.split(" • ").map((info, index) => (
-                  <div>• {info}</div>
-                ))}
+                {
+                    email && (
+                        <p class="icon-print">
+                            <a
+                                href={`mailto:${email}`}
+                                title={`Enviar un correo electronico a ${name} al correo ${email}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Mail />
+                            </a>
+                            {email}
+                        </p>
+                    )
+                }
+
+                {
+                    phone && (
+                        <p class="icon-print">
+                            <a
+                            href={`tel:${phone}`}
+                            title={`Lamar por teléfono a ${name} al número ${phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                                <Phone />
+                            </a>
+                            {phone}
+                        </p>
+                    )
+                }
+
+                {
+                    profiles.map(({ network, url, username }) => {
+                        if (network === 'LinkedIn'){
+                            const Icon = SOCIAL_ICONS[network]
+
+                            return (
+                                <p class="icon-print">
+                                    <a
+                                        href={url}
+                                        title={`Visitar el perfil de ${name} en ${network}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <Icon />
+                                    </a>
+                                    {username}
+                                </p>
+                            )
+                        }
+                    })
+                }
             </footer>
             <footer class="no-print">
                 {
@@ -103,6 +151,16 @@ const printInfo = [email, phone, url].filter(Boolean).join(" • ")
         flex-direction: column;
         gap: 0.5rem;
         padding-right: 32px;
+    }
+
+    .icon-print {
+        display: flex; 
+        align-items: center;
+        margin-bottom: 2px; 
+    }
+
+    .icon-print a {
+        margin-right: 5px;
     }
 
     h1 {
