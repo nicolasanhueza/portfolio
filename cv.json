@@ -26,10 +26,10 @@
       }]
     },
     "work": [{
-      "name": "Desarrollador de Software Freelance",
-      "position": null,
+      "name": "Freelance",
+      "position": "Desarrollador de Software",
       "url": null,
-      "startDate": "2023-06-06",
+      "startDate": "2024-11-12",
       "endDate": null,
       "summary": [
         "• Realizó el diseño UI/UX de la página web para la pyme Malva Silvestre, mejorando la experiencia del usuario y la usabilidad del sitio.",
@@ -45,7 +45,7 @@
     },
     {
         "name": "Grupo Signalis",
-        "position": "Programador",
+        "position": "Desarrollador de Software (practica profesional)",
         "url": "https://www.signalis.cl",
         "startDate": "2023-02-06",
         "endDate": "2023-06-06",
@@ -163,6 +163,20 @@
       {
         "name": "GitHub",
         "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "basico",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "basico",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente", "Git"
         ]
