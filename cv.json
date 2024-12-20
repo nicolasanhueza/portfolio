@@ -6,7 +6,7 @@
       "email": "nicolasanhuezajaque@hotmail.com",
       "phone": "+56 9 83898828",
       "url": "Nsanhueza",
-      "summary": "Ingeniero en Computación e Informática con experiencia en desarrollo de software backend y frontend, además de conocimientos en arquitectura de software. Posee sólidas habilidades en Python y en Framework Astro. Busca aplicar sus habilidades técnicas y su pasión por la programación en un puesto desafiante dentro de una empresa innovadora. Le entusiasma la posibilidad de colaborar en proyectos que tengan un impacto positivo en la sociedad.",
+      "summary": "Ingeniero en Computación e Informática con experiencia en desarrollo de software backend y frontend, así como en arquitectura de software. Destaca por su manejo de Python y conocimientos en diseño y desarrollo web, adquiridos tanto en proyectos freelance como en su práctica en Grupo Signalis, donde participó en documentación, refactorización de código e implementación de pruebas unitarias. Apasionado por la programación y la innovación, busca un puesto desafiante en una empresa donde pueda aplicar sus habilidades técnicas y contribuir a proyectos con impacto positivo en la sociedad, mientras continúa creciendo profesionalmente.",
       "location": {
         "address": "Pasaje los nardos 320",
         "postalCode": "8050000",
@@ -32,15 +32,15 @@
       "startDate": "2024-11-12",
       "endDate": null,
       "summary": [
-        "• Realizó el diseño UI/UX de la página web para la pyme Malva Silvestre, mejorando la experiencia del usuario y la usabilidad del sitio.",
-        "• Creó una landing page para un proyecto personal, demostrando habilidades de diseño y desarrollo web autónomas."
+        "• Diseñó la UI/UX de la página web para la pyme Malva Silvestre, mejorando la usabilidad del sitio y ofreciendo una experiencia más intuitiva para los usuarios.",
+        "• Desarrolló un traductor basado en inteligencia artificial que mejora la calidad de las traducciones al comprender el contexto del texto, y creó una landing page para un proyecto personal, demostrando sus capacidades en diseño y desarrollo web autónomo."
       ],
       "skills":"Habilidades técnicas destacadas:" ,
       "highlights": [
-        "• HTML, CSS, JavaScript",
-        "• Frameworks front-end (opcional, según los proyectos realizados)",
-        "• Experiencia con herramientas de diseño UI/UX",
-        "• Gestión de proyectos y organización personal"
+        "• Desarrollo y diseño de páginas web atractivas y funcionales.",
+        "• Uso de herramientas avanzadas para crear interfaces de usuario modernas e intuitivas.",
+        "• Experiencia en diseño visual y mejora de la experiencia del usuario.",
+        "• Planificación y gestión eficiente de proyectos, priorizando organización y entrega oportuna"
       ]
     },
     {
@@ -230,19 +230,19 @@
       "url": "https://everifi-api-docs-git-develop-everifi.vercel.app"
     },
     {
-      "name": "Api currency",
+      "name": "VertAI Translate",
       "isActive": true,
-      "description": "Se encargó del desarrollo y la implementación de pruebas unitarias para una API encargada de la conversión de moneda. Esta API fue subida a Packagist para su uso en proyectos futuros de la empresa. Para obtener los valores de las monedas, esta API consumía la API de Open Exchange Rates.",
+      "description": "Desarrolló un traductor que utiliza inteligencia artificial para ofrecer traducciones más precisas y naturales, capaz de comprender el contexto del texto y mejorar significativamente la calidad de las traducciones.",
       "highlights": [
-        "Laravel 9.19",
-        "Php 8.0.2",
-        "Vite 4.1.4",
-        "Bootstrap 5.3.0",
-        "Pestphp 1.23",
-        "Phpadmin",
-        "MySQL"
+        "React 18.3.1",
+        "Python 3.10",
+        "Typesript 5.5.3",
+        "React-bootstrap 2.10.5",
+        "Flask 2.2.2",
+        "Vite 5.4.1",
+        "Eslint 9.9.0"
       ],
-      "url": "https://packagist.org/packages/nicolas-signalis/open-exchange-rates",
+      "url": "https://vertai-translate.vercel.app",
       "github": ""
     },
     {
