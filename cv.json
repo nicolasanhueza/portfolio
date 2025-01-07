@@ -26,21 +26,33 @@
       }]
     },
     "work": [{
+      "name": "Outlier",
+      "position": "Entrenador de Modelos de Inteligencia artificial",
+      "url": "https://outlier.ai",
+      "startDate": "2024-12-26",
+      "endDate": null,
+      "summary": [
+        "• Diseñó y evaluó prompts relacionados con lenguajes de programación para entrenar modelos de inteligencia artificial, analizando y corrigiendo respuestas generadas por la IA para garantizar resultados precisos, documentando fallos y optimizaciones realizadas que contribuyeron significativamente al perfeccionamiento del modelo."
+      ],
+      "skills":"Habilidades técnicas destacadas:" ,
+      "highlights": [
+        "• Experiencia en herramientas y plataformas de entrenamiento de inteligencia artificial.",
+        "• Conocimientos en múltiples lenguajes de programación, especialmente en Python."
+      ]
+    },
+    {
       "name": "Freelance",
       "position": "Desarrollador de Software",
-      "url": null,
+      "url": "https://vertai-translate.vercel.app",
       "startDate": "2024-11-12",
       "endDate": null,
       "summary": [
-        "• Diseñó la UI/UX de la página web para la pyme Malva Silvestre, mejorando la usabilidad del sitio y ofreciendo una experiencia más intuitiva para los usuarios.",
         "• Desarrolló un traductor basado en inteligencia artificial que mejora la calidad de las traducciones al comprender el contexto del texto, y creó una landing page para un proyecto personal, demostrando sus capacidades en diseño y desarrollo web autónomo."
       ],
       "skills":"Habilidades técnicas destacadas:" ,
       "highlights": [
-        "• Desarrollo y diseño de páginas web atractivas y funcionales.",
-        "• Uso de herramientas avanzadas para crear interfaces de usuario modernas e intuitivas.",
-        "• Experiencia en diseño visual y mejora de la experiencia del usuario.",
-        "• Planificación y gestión eficiente de proyectos, priorizando organización y entrega oportuna"
+        "• Desarrollo de páginas web funcionales con interfaces modernas e intuitivas, optimizando la experiencia del usuario.",
+        "• Planificación y gestión eficiente de proyectos, priorizando organización y entrega oportuna."
       ]
     },
     {
@@ -210,20 +222,12 @@
     "projects": [{
       "name": "Everi.fi",
       "isActive": true,
-      "description": "Formaba parte del equipo encargado de desarrollar un software centrado en la prevención del riesgo de fraude en entornos comerciales. Su principal responsabilidad consistía en mejorar la calidad del código a través de la refactorización y llevar a cabo pruebas unitarias en todos los endpoints de la API.",
+      "description": "Participó en el desarrollo de un software para la prevención de riesgos de fraude en entornos comerciales, contribuyendo mediante la refactorización del código y la realización de pruebas unitarias en los endpoints de la API. Además, creó la documentación interactiva de la API everi.fi.",
       "highlights": [
         "Pestphp 1.23",
         "Laravel 9.19",
         "Php 8.0.2",
-        "Postman 10.15.1"
-      ],
-      "url": "https://everi.fi"
-    },
-    {
-      "name": "Documentación API",
-      "isActive": true,
-      "description": "Desarrolló la documentación de la API everi.fi, creando una interfaz interactiva para los desarrolladores de los clientes del servicio. Escribió guías detalladas y ejemplos de código para asegurar la precisión de la documentación y mejorar la experiencia del usuario. Esto redujo el tiempo necesario para entender el funcionamiento de la API y aumentó la satisfacción del usuario.",
-      "highlights": [
+        "Postman 10.15.1",
         "Tailwindcss 3.3.0",
         "React 18.2.0"
       ],
@@ -258,16 +262,6 @@
         "MySQL"
       ],
       "url": "https://gitlab.com/nicolas.sanhueza/storecontrol.git"
-    },
-    {
-      "name": "Juego Covid-19",
-      "isActive": true,
-      "description": "El proyecto universitario, con calificación y con el fin de ser presentado al Ministerio de Salud, fue desarrollado por su equipo. Utilizaron la metodología ágil Scrum para crear un videojuego. El objetivo principal de este proyecto era informar y concienciar a los niños sobre los riesgos asociados con el COVID-19, además de proporcionar estrategias para su prevención y combate.",
-      "highlights": [
-        "C#",
-        "Untiy"
-      ],
-      "url": null
     }
     ]
   }
